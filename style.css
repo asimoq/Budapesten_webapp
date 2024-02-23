@@ -69,7 +69,8 @@ body{
   
   margin: 0;
   margin-top: 10px;
-  background-color: rgb(207, 136, 39);
+  background-color: rgba(207, 136, 39, 1);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.05);
   color: white;
   text-decoration: none;
   font-family: "Caladea", serif;
