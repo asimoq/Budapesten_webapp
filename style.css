@@ -89,6 +89,11 @@ body{
   transform: scale(0.95);
 }
 
+.galeria-text{
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 0.2em;
+}
+
 .gallery{
   display: grid;
   gap: 1rem;
