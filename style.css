@@ -42,12 +42,21 @@ body{
 
 }
 
+.about{
+  background-color: rgb(207, 136, 39);
+  color: white;
+  padding: 20px;
+}
+
 .where{
   display: flex;
   flex-direction: row;
   background-color: rgb(77 140 171);
   height: 430px;
   color: white;
+}
+.where-text{
+  font-size: 110%;
 }
 
 .icon{
@@ -56,14 +65,13 @@ body{
   text-align: left;
   padding: 15px;
   margin: 0;
-  
 }
 
-.about{
-  background-color: rgb(207, 136, 39);
-  color: white;
-  padding: 20px;
-}
+
+
+
+
+
 
 .tickets {
   display: inline-block;
@@ -145,6 +153,16 @@ body{
 
   .galleryimage-wide{
     grid-column: span 2 / auto;
+  }
+
+  .map{
+    flex: 2;
+  }
+}
+
+@media screen and (min-width:1900px) {
+  .where-text{
+    flex: 2;
   }
 }
 
