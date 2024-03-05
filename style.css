@@ -45,7 +45,12 @@ body{
 .about{
   background-color: rgb(207, 136, 39);
   color: white;
-  padding: 20px;
+  padding: 40px;
+}
+
+.about-title{
+  margin: 0px;
+  margin-bottom:20px;
 }
 
 .where{
