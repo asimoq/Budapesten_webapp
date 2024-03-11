@@ -7,3 +7,17 @@ function toggleExpand(element) {
     document.body.style.overflow = '';
   }
 }
+
+function scrollToElement(elementId) {
+  const element = document.getElementById(elementId);
+
+  if (element) {
+    const offsetTop = element.getBoundingClientRect().top + window.scrollY;
+
+    window.scroll({
+      top: offsetTop,
+      behavior: 'smooth'
+    });
+  }
+  event.preventDefault();
+}
