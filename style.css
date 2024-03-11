@@ -1,8 +1,15 @@
+:root {
+  --blue: rgb(87 150 174);
+  --yellow: rgb(241, 161, 50);
+  --red: rgb(218,80,77);
+}
+
 body{
-  background-color: rgb(77 140 171);
-  color: rgb(87 150 174);
+  background-color: var(--blue);
+  color: var(--blue);
   flex-direction: column;
-  font-family: "Caladea", serif;
+  font-family: "Lora", serif;
+  
   padding: 0;
   margin: 0;
   
@@ -40,7 +47,7 @@ body{
 }
 
 .about{
-  background-color: rgb(207, 136, 39);
+  background-color: var(--yellow);
   color: white;
   padding: 40px;
 }
@@ -53,7 +60,7 @@ body{
 .where{
   display: flex;
   flex-direction: row;
-  background-color: rgb(77 140 171);
+  background-color: var(--blue);
   height: 430px;
   color: white;
   padding: 25px;
@@ -72,15 +79,19 @@ body{
 
 .tickets {
   display: inline-block;
-  padding: 15px 30px; 
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
   margin: 0;
   margin-top: 10px;
-  background-color: rgba(207, 136, 39, 1);
+  background-color: var(--yellow);
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.05);
   color: white;
   text-decoration: none;
-  font-family: "Caladea", serif;
-  font-size: 20px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 35px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -88,7 +99,7 @@ body{
 }
 
 .tickets:hover {
-  background-color: rgb(255, 149, 0);
+  background-color: var(--yellow);
 }
 
 .tickets:active {
@@ -98,7 +109,7 @@ body{
 .galeria-text{
   font-family: "Bebas Neue", sans-serif;
   letter-spacing: 0.2em;
-  font-size: xx-large;
+  font-size: xxx-large;
   
 }
 
@@ -158,11 +169,7 @@ body{
   }
 }
 
-@media screen and (min-width:1900px) {
-  .where-text{
-    flex: 2;
-  }
-}
+
 
 @media screen and (min-width:600px) {
   .gallery{
@@ -171,6 +178,42 @@ body{
     grid-auto-rows: 350px;
    
     
+  }
+
+  .about{
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+
+  .where{
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+
+  .gallery{
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+
+@media screen and (min-width:1900px) {
+  .where-text{
+    flex: 2;
+  }
+
+  .about{
+    padding-left: 400px;
+    padding-right: 400px;
+  }
+
+  .where{
+    padding-left: 400px;
+    padding-right: 400px;
+  }
+
+  .gallery{
+    padding-left: 400px;
+    padding-right: 400px;
   }
 }
 
