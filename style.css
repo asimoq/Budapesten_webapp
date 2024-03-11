@@ -31,7 +31,7 @@ body{
   
   left:0; right: 0;
   font-family: "Bebas Neue", sans-serif;
-  font-size:12.5vw;
+  font-size:15.5vw;
   letter-spacing: 0.2em;
   color: white;
   text-shadow: 0px 0px 50px rgba(0,0,0,0.2);
@@ -47,7 +47,7 @@ body{
 
 .about-title{
   margin: 0px;
-  margin-bottom:20px;
+  margin-bottom:25px;
 }
 
 .where{
@@ -56,6 +56,7 @@ body{
   background-color: rgb(77 140 171);
   height: 430px;
   color: white;
+  padding: 25px;
 }
 .where-text{
   font-size: 110%;
@@ -97,6 +98,7 @@ body{
 .galeria-text{
   font-family: "Bebas Neue", sans-serif;
   letter-spacing: 0.2em;
+  font-size: xx-large;
   
 }
 
