@@ -234,6 +234,7 @@ body{
 @media screen and (max-width:600px) {
   .navbar a{
     padding-right: 50%;
+    color: var(--blue);
     
   }
   .hamburger-icon{
