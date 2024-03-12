@@ -8,6 +8,11 @@ function toggleExpand(element) {
   }
 }
 
+function toggleNavbar() {
+  var navbar = document.querySelector('.navbar');
+  navbar.classList.toggle('expanded');
+}
+
 function scrollToElement(elementId) {
   const element = document.getElementById(elementId);
 

@@ -18,12 +18,15 @@
   <header class="header">
     
   </header>
+  <div class="hamburger-icon" onclick="toggleNavbar()">
+    ☰
+  </div>
   <div id="navbar" class="navbar" >
-    <a href="#" onclick="scrollToElement('about')">Rólunk</a>
-    <a href="#" onclick="scrollToElement('where')">Helyszín</a>
+    <a href="#" onclick="scrollToElement('about');toggleNavbar()">Rólunk</a>
+    <a href="#" onclick="scrollToElement('where');toggleNavbar()">Helyszín</a>
     <a href="https://katakomba.info/jegyek/budapesten-2024-03-24/" target="_blank">Jegyek</a>
-    <a href="#" onclick="scrollToElement('gallery')">Galéria</a>
-    <a href="#" onclick="scrollToElement('contact')">Kapcsolat</a>
+    <a href="#" onclick="scrollToElement('gallery');toggleNavbar()">Galéria</a>
+    <a href="#" onclick="scrollToElement('contact');toggleNavbar()">Kapcsolat</a>
   </div>
 
   <div class="poster-container">
