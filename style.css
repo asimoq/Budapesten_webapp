@@ -234,12 +234,16 @@ body{
 @media screen and (max-width:600px) {
   .navbar a{
     padding-right: 50%;
+    
   }
   .hamburger-icon{
     font-size: 50px;
   }
   .Budapesten-text{
     top: 20%
+  }
+  .navbar{
+  background: rgba(163, 163, 163, 0.838);
   }
 }
 
